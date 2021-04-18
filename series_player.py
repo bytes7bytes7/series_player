@@ -68,7 +68,7 @@ try:
 	parsed_html = BeautifulSoup(html,"html.parser")
 	player_link = parsed_html.find('div',attrs={'id':'preroll'}).find('div').find('iframe')['src']
 except:
-	input('\nВидео не доступно :(')
+	input('\nВидео недоступно :(')
 	raise SystemExit
 
 html = session.get(player_link).text
