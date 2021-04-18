@@ -1,5 +1,9 @@
 # Series Player
 
+## Description
+
+Небольшой код, формирующий html с видео плеером, где можно смотреть любимые сериалы без рекламы (все видеоматериалы взяты с hd.seasonlast.ru)
+
 ## Installation
 
 ```bash
